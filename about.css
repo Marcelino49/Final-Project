@@ -1,0 +1,178 @@
+.body{
+    max-width: 900px;
+}
+/*Page Header*/
+h1{
+    text-shadow: 2px 2px #501c1c;
+    font-size: 60px;
+    color: #aa0707;
+    float: left;
+    font-weight: bold 700;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/*Guitar Logo CSS*/
+#Guitar{
+    width: 90px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+/* CSS for Navbar Starts */
+.Rockheaders{font-size:35px;
+    color:#aa0707;    
+}
+
+nav{
+    font-size: 30px;
+    border: 3px solid #aa0707;
+    box-shadow: 10px 10px #501c1c;
+    position: sticky;
+    top: 0;
+    margin-right: 12px;
+    background-color:rgb(27, 1, 19) ;
+    min-width: 900px;
+    z-index: 10;
+    color:#aa0707
+}
+nav a:link{
+    text-decoration: none;
+    color: #aa0707;
+}
+nav a:hover{
+    color: #501c1c;
+}
+nav ul{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+nav li{
+    display: inline;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 0px;
+   }
+a:visited{
+    color: #aa0707;
+   }
+a:active{
+    color: #aa0707;
+}
+/* CSS for Navbar Ends */
+
+h2{
+    color: #aa0707;
+    text-align: center;
+    margin-top: 30px;
+}
+/* CSS for Upcoming Events Images Begins */
+marquee{
+    margin-left: 185px;
+    margin-right: 185px;
+    margin-bottom: 30px;
+}
+#upcoming1{
+    margin-right: 15px;
+}
+#upcoming2{
+    margin-right: 15px;
+}
+#upcoming3{
+    margin-right: 15px;
+}
+/* Future use CSS */
+/* #upcoming4{ 
+    margin-right: 15px;
+}
+#upcoming5{
+    margin-right: 15px;
+}*/
+/* CSS for Upcoming Events Images Ends */
+
+/* CSS for Youtube Video and About Me Paragraph */
+.MainContainer{
+    display: table;
+    width: 99.2%;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 30px;
+}
+/* CSS for Youtube Video */
+.Container1{
+    display: table-cell;
+    width: 200px;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 10px;
+}
+/* CSS for About Me Paragraph */
+.Container2{
+    display: table-cell;
+    width: 200px;
+    margin-top: 50px;
+    height: 400px;
+    text-align: justify;
+    padding-right: 180px;
+    padding-left: 10px;
+    
+}
+
+h3{
+    color: #aa0707;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h2{
+    color: #aa0707;
+    text-align: center;
+}
+p{
+    color: #501c1c;
+    font-weight: 500;
+}
+/* CSS for Youtube Video and About Me Paragraph Ends */
+
+/* CSS for Footer Begins */
+footer{
+    border: 3px solid #aa0707;
+    box-shadow: 10px 10px #501c1c;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    clear: both;
+    
+}
+footer p{
+    font-size: 20px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+footer p:hover{
+    color: #501c1c;
+    }
+footer :visited{color: #aa0707}
+footer a:link{color: #aa0707;
+    text-decoration: none;
+    }
+footer :active{color: #501c1c;}
+.InstagramIcon{
+    font-size: 40px;
+    width: 15px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.InstagramIcon:hover{
+    color: #501c1c;
+    transition: 3s;
+}

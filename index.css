@@ -1,0 +1,154 @@
+.body{
+    max-width: 900px;
+}
+h1{
+    text-shadow: 2px 2px #501c1c;
+    font-size: 60px;
+    color: #aa0707;
+    float: left;
+   /* display: inline;*/
+    font-weight: bold 700;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/*Guitar Logo*/
+#Guitar{
+    width: 90px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.Rockheaders{font-size:35px;
+    color:#aa0707;    
+}
+/* CSS for Navbar Begins */
+nav{
+    font-size: 30px;
+    border: 3px solid #aa0707;
+    box-shadow: 10px 10px #501c1c;
+    position: sticky;
+    top: 0;
+    margin-right: 12px;
+    background-color:rgb(27, 1, 19) ;
+    min-width: 900px;
+}
+nav a:link{
+    text-decoration: none;
+    color: #aa0707;
+}
+nav a:active{
+    color: #aa0707;
+}
+nav a:hover{
+    color: #501c1c;
+}
+nav ul{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+nav li{
+    display: inline;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 0px;
+   }
+/* CSS for Navbar Ends */
+
+/* CSS for Hero Image */
+#OutdoorConcert{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   }
+
+/* CSS for Welcome Paragraph */
+.RockPara{
+    font-size: 25px; 
+    font-weight: 550;
+    margin: auto; 
+    width: 90%; 
+    border:3px solid #aa0707; 
+    box-shadow: 10px 10px #501c1c;
+    padding: 10px;
+    text-align: center;
+    color:#501c1c;
+   }
+h2{
+    background-color: rgb(27, 1, 19);
+    text-decoration-line: underline;
+    margin-left: 12px;
+}   
+/* CSS for Event Dates */
+a:visited{
+    color:#aa0707}
+a:link{
+    color: #aa0707;
+}
+a:hover{
+    color: #501c1c;
+}
+/*Concert Dates*/
+.ULdates{color:#501c1c;
+    text-align: initial;
+    font-size: 30px;
+    display: inline-block;
+    }
+
+/* CSS for Scroll to Top Button */
+    #btnScrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #aa0707;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0, 0.25);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#btnScrollToTop:active{
+    background: #501c1c;
+}
+
+/* CSS for Footer */
+footer{
+    border: 3px solid #aa0707;
+    box-shadow: 10px 10px #501c1c;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+footer p{
+    font-size: 20px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+footer p:hover{
+    color: #501c1c;
+    }
+footer :visited{color: #aa0707}
+footer a:link{color: #aa0707;
+    text-decoration: none;
+    }
+footer :active{color: #501c1c;}
+.InstagramIcon{
+    font-size: 40px;
+    width: 15px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.InstagramIcon:hover{
+    color: #501c1c;
+    transition: 3s;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Contact.css">
+    <title>El Rock y Yo Contact Page</title>
+</head>
+<body style="background-color:rgb(27, 1, 19);">
+    <!-- Navbar -->
+    <nav> 
+        <h1>El Rock y Yo</h1>
+        <img id="Guitar" src="./Images/guitar 1 cropped.png" alt="Guitar Logo">
+        <ul>
+             <li><a href="index.html">Eventos</a></li>
+             <li><a href="about.html">¿Quiénes Somos?</a></li>
+             <li><a href="contact.html">Contacto</a></li>   
+        </ul>
+     </nav>
+     
+     <!-- Contact Page Header -->
+     <div class="ContactPara">
+        <p>Más Eventos por Venir…</p>
+     </div>
+
+      <!-- Upcoming Events Images -->
+    <marquee behavior="Alternate" direction="left" scrollamount="-10">
+        <a href="https://www.ticketweb.com/event/hinds-hearty-har-dying-suns-strummers-tickets/11392825?irgwc=1&clickid=zX2Qcv1DwxyOUwSwUx0Mo34BUkBSo-3FuXxP3M0&camefrom=CFC_BUYAT_253520&impradid=253520&REFERRAL_ID=tmfeedbuyat253520&wt.mc_id=aff_BUYAT_253520&utm_source=253520-Youtube&impradname=Youtube&utm_medium=affiliate&utm_content=YT-ACRcEUoBMJK-7BvLxVIthVI7xYoQuVvf-xHYPMH8WlcH553lJ06JAkttpC78n2Ro9eCm3Fn1nzzU4V8MUnAXO7Tc1z5lYyC6aaBMA2V8zFdVpwGzZBIZIsIroNXR7JSDWYcfzZKc3F0n1KAPtapt7erqZWyyMu1kto-31-nxlF2riI9j_8F0754V" target="_blank">
+            <img id="upcoming1" src="Images/Hinds.jpg" width="225" height="182" alt="Hinds Indy Rock">
+        </a>
+        <A href="https://www.songkick.com/concerts/39989621-mago-de-oz-at-riverside-municipal-auditorium" target="_blank">
+            <img id="upcoming2" src="Images/Mago de Oz.png" width="225" height="182" alt="Mago de Oz">
+        </A>
+        <a href="https://www3.ticketon.com/event/MARIA-FATAL-EN-VIVO/446530" target="_blank">
+            <img id="upcoming3" src="Images/Maria Fatal.jpg" width="225" height="182" alt="Maria Fatal">
+        </a>
+        <a href="https://www.songkick.com/concerts/39993151-gondwana-at-music-box" target="_blank">
+            <img id="upcoming4" src="Images/Gondwana.jpg" width="225" height="182" alt="Gondwana"> 
+        </a>
+        <a href="https://www.ticketmaster.com/la-luz-with-tropa-magica-and-los-angeles-california-11-13-2021/event/09005AD99A292AE5" target="_blank">
+            <img id="upcoming5" src="./Images/La Luz.jpg" width="225" height="182" alt="La Luz">
+        </a>
+        <!-- Future use -->
+        <!--<img id="upcoming1" src="Images/Hinds.jpg" width="225" height="182" alt="Hinds Indy Rock">
+        <img id="upcoming2" src="Images/Mago de Oz.png" width="225" height="182" alt="Mago de Oz">
+        <img id="upcoming3" src="Images/Maria Fatal.jpg" width="225" height="182" alt="Maria Fatal">
+        <img id="upcoming4" src="Images/Gondwana.jpg" width="225" height="182" alt="Gondwana">
+        <img id="upcoming5" src="./Images/La Luz.jpg" width="225" height="182" alt="La Luz">-->
+    </marquee>
+     
+     <!-- Container for Map and Contact Form -->
+     <div class="MainContainer">
+        <div class="Container1">
+            <div class="CaliforniaMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509163.227140477!2d-123.79831011476443!3d37.19304726719089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia!5e0!3m2!1sen!2sus!4v1634854799562!5m2!1sen!2sus" width="400" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div> 
+        </div>
+        <div class="Container2">
+            <div class="ContactForm">
+                <form action="/action_page.php">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="Nombre" placeholder="Su Nombre..">   
+                 
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="lname" name="Apellido" placeholder="Su Apellido..">
+        
+                    <label for="subject">¿Tienes un evento de rock en California que he olvidado?</label>
+                    <textarea id="subject" name="Tema" placeholder="Oye guey se te olvido el de.." style="height: 200px"></textarea>
+                </form>
+             </div>
+        </div>
+    </div>
+     
+     <!-- Footer -->
+     <footer>
+        <a class="InstagramIcon" href="https://instagram.com/elrockyyo" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <p>
+        <a href="mailto:ambrizmarcelino@gmail.com">Contáctanos</a>
+        </p>
+    </footer>
+
+</body>
+</html>

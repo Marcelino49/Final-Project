@@ -1,0 +1,209 @@
+.body{
+    max-width: 900px;
+}
+h1{
+    text-shadow: 2px 2px #501c1c;
+    font-size: 60px;
+    color: #aa0707;
+    float: left;
+    font-weight: bold 700;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/*Guitar Logo*/
+#Guitar{
+    width: 90px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.Rockheaders{font-size:35px;
+    color:#aa0707;    
+}
+
+/* Navbar CSS Begins */
+nav{
+    font-size: 30px;
+    border: 3px solid #aa0707;
+    box-shadow: 10px 10px #501c1c;
+    position: sticky;
+    top: 0;
+    margin-right: 12px;
+    background-color:rgb(27, 1, 19) ;
+    min-width: 900px;
+    z-index: 10;
+}
+nav a:link{
+    text-decoration: none;
+}
+nav a:hover{
+    color: #501c1c;
+}
+nav ul{
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: -40px;
+}
+nav li{
+    display: inline;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 0px;
+   }
+a:link {
+    color: #aa0707;
+   }
+a:visited{
+    color: #aa0707;
+}
+/* Navbar CSS Ends */
+
+/* Contact Page Header */
+.ContactPara {
+    text-align: center;
+    font-size: 35px;
+    color: #aa0707;
+    margin-top: 20px;
+}
+
+/* CSS for Upcoming Events Images Begins */
+marquee{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+#upcoming1{
+    margin-right: 15px;
+}
+#upcoming2{
+    margin-right: 15px;
+}
+#upcoming3{
+    margin-right: 15px;
+}
+#upcoming4{ 
+    margin-right: 15px;
+}
+#upcoming5{
+    margin-right: 0px;
+}   
+/* CSS for Upcoming Events Images Ends */
+
+/* CSS for Map and Contact Form */
+.MainContainer{
+    display: table;
+    width: 99.2%;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 30px;
+}
+/* CSS for Youtube Video */
+.Container1{
+    display: table-cell;
+    width: 200px;
+    height: 400px;
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Container2{
+    display: table-cell;
+    width: 200px;
+    margin-top: 50px;
+    height: 400px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: px;
+    padding-top: px;
+}
+
+/* Embedded Map CSS */
+.CaliforniaMap {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height:0;
+    margin-top: 30px;
+    margin-bottom: -375px;
+}    
+.CaliforniaMap iframe {
+    left:0;
+    top: 0;
+    height: 85%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Contact Form CSS Begins */
+input[type=text], select, textarea{
+    width: 100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit] hover {
+    background-color: #45a049;
+}
+.ContactForm {
+    border-radius: 5px;
+    background-color: #501c1c;
+    padding: 20px;
+    margin-top: 0px;
+    color: #aa0707;
+    margin-bottom: 20px;
+}
+/* Contact Form CSS Ends*/
+
+/* Footer CSS */
+footer{
+    border: 3px solid #aa0707;
+    box-shadow: 10px 10px #501c1c;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}        
+footer p{
+    font-size: 20px;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+footer p:hover{
+    color: #501c1c;
+    }
+footer :visited{color: #aa0707}
+footer a:link{color: #aa0707;
+    text-decoration: none;
+    }
+footer :active{color: #501c1c;}
+.InstagramIcon{
+    font-size: 40px;
+    width: 15px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.InstagramIcon:hover{
+    color: #501c1c;
+    transition: 3s;
+}
